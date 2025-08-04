@@ -5,7 +5,7 @@ import NavBar from './components/NavBar';
 
 import background from './assets/video/securityRoom.mp4';
 
-import ScrollToTop from './components/scrollToTop';
+import ScrollToTop from './components/ScrollToTop';
 
 const App = () => {
   return (
