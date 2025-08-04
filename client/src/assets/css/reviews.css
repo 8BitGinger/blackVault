@@ -1,0 +1,143 @@
+ .review-container {
+            min-height: 110vh;
+            padding: 2rem;
+            display: flex;
+            margin: 0 auto;
+            border: none;
+            background-color: rgba(30, 143, 255, 1);
+            background: linear-gradient(180deg, rgba(30, 143, 255, 0.9) 50%, rgb(255, 255, 255, 0) 100%);
+ }
+
+ .review-wrapper {
+            max-width: 1200px;
+            margin: auto;
+            padding: 2rem;
+          }
+            
+     
+          .review-heading {
+            font-size: 2.25rem;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 2.5rem;
+            color: #e7e7e7ff;
+          }
+          .review-grid {
+            display: grid;
+            gap: 1.5rem;
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+          }
+
+          .review-card {
+            width: 220px;
+            height: 250px;
+            margin: auto;
+              background-color: rgba(255, 255, 255, 0.9);
+            padding: 1.5rem;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            border: 1px solid #e5e7eb;
+            transition-property: transform;
+            transition-duration: 300ms;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+              
+          }
+
+          .customer-name {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #111827;
+            margin-bottom: 0.5rem;
+          }
+          .star-rating {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+          }
+          .review-star {
+            font-size: 1.25rem; /* Equivalent to w-5 h-5 */
+            margin-right: 0.25rem; /* equivalent to space-x-1 */
+          }
+          .review-star.filled {
+            color: #facc15;
+          }
+          .review-star.empty {
+            color: #9ca3af;
+          }
+          .rating-text {
+            margin-left: 0.5rem; /* equivalent to ml-2 */
+            color: #4b5563;
+            font-weight: 500;
+          }
+          .review-text {
+            color: #374151;
+            line-height: 1.625;
+            font-style: italic;
+          }
+          @media (min-width: 768px) {
+            .review-container {
+              
+              display: flex;
+              justify-content: center;
+                align-items: center;
+            }
+
+            .review-grid {
+              grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+          
+          .review-card {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 1.5rem;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            border: 1px solid #e5e7eb;
+            transition-property: transform;
+            transition-duration: 300ms;
+          }
+          .review-card:hover {
+            transform: scale(1.02);
+          }
+          .customer-name {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #111827;
+            margin-bottom: 0.5rem;
+          }
+          .star-rating {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+          }
+          .review-star {
+            font-size: 1.25rem; /* Equivalent to w-5 h-5 */
+            margin-right: 0.25rem; /* equivalent to space-x-1 */
+          }
+          .review-star.filled {
+            color: #facc15;
+          }
+          .review-star.empty {
+            color: #9ca3af;
+          }
+          .rating-text {
+            margin-left: 0.5rem; /* equivalent to ml-2 */
+            color: #4b5563;
+            font-weight: 500;
+          }
+          .review-text {
+            color: #374151;
+            line-height: 1.625;
+            font-style: italic;
+          }
+          }
+
+          @media (min-width: 1200px) {
+            .review-card {
+              width: 400px;
+              height: 300px;
+     
+            }
+          }
