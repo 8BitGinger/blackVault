@@ -65,6 +65,8 @@ const Reviews = () => {
           </div>
         </motion.div>
       </div>
+      
+
     </>
   );
 };

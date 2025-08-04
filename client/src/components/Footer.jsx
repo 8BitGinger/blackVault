@@ -12,7 +12,7 @@ const Footer = () => {
             initial="hidden"
             whileInView={'show'}
             viewport={{ once: false, amount: 0.2 }}
-    class='footer'>
+    className='footer'>
       <div className="row">
         <img src={FooterImage} alt="Footer Image" />
         <div className="row-content">

@@ -48,7 +48,12 @@ const MissionStatement = () => {
         </motion.p>
       </div>
        
-
+<motion.a
+        variants={fadeIn('up', 0.8)}
+                initial="hidden"
+                whileInView={'show'}
+                viewport={{ once: false, amount: 0.7 }}
+        href="/services" className="cta-btn">Schedule Your Evaluation Now!</motion.a>
     </section>
     
   )

@@ -128,7 +128,7 @@
 }
 
 .footer {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 2%, rgba(0, 0, 0, 1) 100%);
     color: rgb(255, 255, 255);
     font-size: 1.4em;
     text-align: center;
@@ -137,12 +137,12 @@
     bottom: 0;
     margin: 0;
     width: 100vw;
-    height: 110vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    margin-top: 50px;
 }
 
 .footer img {
@@ -154,6 +154,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: center center;
     z-index: -1;
     filter: brightness(0.8);
 }
@@ -471,7 +472,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position:top;
+    object-position: center center;
     z-index: -1;
     filter: brightness(0.4);
 }
@@ -483,14 +484,14 @@
           }
 
           .info-block .card {
-    background: rgba(255, 255, 255, 0.603);
+    background: rgba(30, 143, 255, 0.712);
     border-radius: 8px;
     padding: 15px;
     margin: 10px auto;
     width: 90%;
     backdrop-filter: blur(10px);
     max-width: none;
-    color: black;
+    color: rgb(255, 255, 255);
     display: flex;
     flex-direction: row;
     border: 1px double rgb(3, 3, 3);
