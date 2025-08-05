@@ -14,7 +14,7 @@ const Header = () => {
         whileInView={'show'}
         viewport={{ once: false, amount: 0.7 }}>
       
-      <h1>Blackvault Security</h1>
+      <h1>Blackvault Solutions</h1>
             <h3
         
         className="flex flex-row"
@@ -29,6 +29,10 @@ const Header = () => {
             'Lubbock',
             4000,
             'Safe',
+            3000,
+            'Trusted',
+            3000,
+            'Reliable',
             3000,
 
           ]}

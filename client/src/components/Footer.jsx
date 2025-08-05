@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
       </div>
         <div className="footer-content">
-            <p><span className='highlight'>©</span> 2025 Black Vault Security. </p>
+            <p><span className='highlight'>©</span> 2025 Black Vault Solutions </p>
             <p>All rights reserved.</p>
             <p> Designed by <a href="https://8bitginger.com" target="_blank" rel="noopener noreferrer">8bitGinger</a></p>
         </div>

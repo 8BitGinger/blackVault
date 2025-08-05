@@ -12,7 +12,7 @@ const Intro = () => {
                 whileInView={'show'}
                 viewport={{ once: false, amount: 0.7 }}>
         
-        Welcome to Blackvault Security</motion.h2>
+        Welcome to Blackvault</motion.h2>
 
         <motion.h3
         variants={fadeIn('up', 0.4)}

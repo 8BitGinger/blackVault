@@ -18,9 +18,9 @@ const App = () => {
         <source src={background} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      
+      <div className="content-container">
         <Outlet />
-    
+      </div>
     </main>
   );
 };
